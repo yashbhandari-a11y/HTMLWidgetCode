@@ -54,6 +54,12 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
+## Quick Start
+
+1. Open `index.html` in your browser.
+2. Navigate between `about.html` and `contact.html` using the site menu.
+3. Use the contact form to test frontend validation and success messaging.
+
 ## Deployment
 
 This project can be deployed directly to Vercel as a static site. No special configuration is required.
