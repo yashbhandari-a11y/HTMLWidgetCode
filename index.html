@@ -129,6 +129,34 @@
       </div>
     </section>
 
+    <section class="section section-features" id="features">
+      
+      <div>
+
+      <div style="position: relative; top: 0; z-index: 20; height: 440px; width: 330px;">
+        <iframe
+            id="planify-widget"
+            width="100%" 
+            height="435px" 
+            frameborder="0"
+            title="planify tickers"
+        ></iframe>
+      </div>
+        <a id="referral-link" href="https://www.planify.in/" style="position: absolute; top: 0; left: 0; width: 0; height: 0; overflow: hidden;" rel="nofollow">Planify</a> 
+      <script>
+        const widgetId = 'b23e7eed-2a7d-4425-a5c1-c601159d7562';
+        const currentDomain = window.location.hostname;
+        const currentPath = window.location.pathname;
+        const anchorTag = document.getElementById('referral-link');
+        if (anchorTag) {
+          document.getElementById('planify-widget').src = 'https://www.planify.in/widgets/' + widgetId + '?d=' + currentDomain + '&p=' + currentPath;
+        };
+      </script>
+       
+      </div>
+      
+    </section>
+
     <section class="section section-why">
       <div class="container why-grid">
         <div class="why-copy">
